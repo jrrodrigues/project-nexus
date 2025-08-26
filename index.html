@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus - Portfólio de Desenvolvedor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Nexus</a>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle">
+                <span>Modo Escuro</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Olá, sou **[Seu Nome]**</h1>
+                    <p>Desenvolvedor Web com paixão por criar experiências digitais elegantes e funcionais.</p>
+                    <a href="#portfolio" class="cta-button">Ver Projetos</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about-section fade-in" id="about">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <p>Sou um desenvolvedor front-end com X anos de experiência em **[Tecnologia]**, **[Tecnologia]** e **[Tecnologia]**. Meu objetivo é construir soluções web responsivas e eficientes, focando na melhor experiência do usuário.</p>
+            </div>
+        </section>
+
+        <section class="section portfolio-section" id="portfolio">
+            <div class="container">
+                <h2>Portfólio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item fade-in">
+                        <img src="https://via.placeholder.com/400" alt="Projeto 1">
+                        <h3>Projeto A</h3>
+                        <p>Descrição curta do projeto A.</p>
+                    </div>
+                    <div class="portfolio-item fade-in">
+                        <img src="https://via.placeholder.com/400" alt="Projeto 2">
+                        <h3>Projeto B</h3>
+                        <p>Descrição curta do projeto B.</p>
+                    </div>
+                    <div class="portfolio-item fade-in">
+                        <img src="https://via.placeholder.com/400" alt="Projeto 3">
+                        <h3>Projeto C</h3>
+                        <p>Descrição curta do projeto C.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section fade-in" id="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
